@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "For the back end, make sure to install the [Open Food Facts data export as a MongoDB](https://world.openfoodfacts.org/data), and place it a folder named `database` within the backend folder, such that the structure looks similar to this:\r ```\r - backjend\r   |-> databse\r     |-> products.bson\r     |-> products.meta.json\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
