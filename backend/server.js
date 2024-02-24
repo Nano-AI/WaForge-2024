@@ -7,8 +7,7 @@ const { MongoClient } = require('mongodb');
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-// const DB_URL = process.env.DB_URL;
-const DB_URL = "mongodb://0.0.0.0:27017\?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.5";
+const DB_URL = process.env.DB_URL;
 
 const client = new MongoClient(DB_URL);
 
