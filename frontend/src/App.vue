@@ -101,7 +101,7 @@ onUnmounted(() => {
 const itemVisible = ref(false)
 
 // REMOVE IN LIVE
-latest.value = "040000513155"
+latest.value = "02289902"
 
 const item = ref(null)
 

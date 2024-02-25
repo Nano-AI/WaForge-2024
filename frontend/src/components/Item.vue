@@ -47,6 +47,40 @@ function toTitleCase(str) {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
     });
 }
+
+function splitBarcode(str) {
+    if (str == undefined || str.length < 10) {
+        return str;
+    }
+    let stuff = str.match(/.{1,3}/g);
+    let o = "";
+    for (let i = 0; i < stuff.length - 1; i++) {
+        o += stuff[i];
+        if (i < stuff.length - 2) {
+            o += "/";
+        }
+    }
+    o += stuff[stuff.length - 1];
+    return o;
+}
+
+function getImage() {
+    return `https://images.openfoodfacts.org/images/products/${splitBarcode(product.value._id)}/front_en.${product.value.images.front_en.rev}.400.jpg`;
+}
+
+function aiSummary() {
+    fetch("https://be92-4-16-175-130.ngrok-free.app/api/summary/" + product.value._id, {
+        headers: {
+            "ngrok-skip-browser-warning": "hi"
+        }
+    }).then(resp => resp.json()).then(
+        data => {
+            let response = data["candidates"][0]["content"]["parts"][0]["text"];
+            document.getElementById("ai-generated").innerHTML = marked.parse(response);
+        }
+    ).catch(() => {});
+}
+
 </script>
 
 <template>
@@ -61,9 +95,15 @@ function toTitleCase(str) {
                     </svg>
                 </button>
                 <div class="flex flex-col mt-3 flex-1 px-1.5 overflow-y-auto">
-                    <div class="text-xl roboto-black">{{ toTitleCase(product.product_name_en) }}</div>
-                    <div class="block">
-                        <div class="rounded-full shadow-inner px-2 py-1">hi</div>
+                    <div class="flex">
+                        <div class="text-xl roboto-black mr-4">{{ toTitleCase(product.product_name_en) }}</div>
+                        <img :src="getImage()" class="rounded-lg w-36" />
+                    </div>
+                    <div>
+                        <button @click="aiSummary" class="rounded-lg p-3 w-full my-4" style="background-color: #ACBD81;">Generate AI</button>
+                        <p id="ai-generated">
+
+                        </p>
                     </div>
                 </div>
             </div>
