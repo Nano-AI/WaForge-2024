@@ -1,5 +1,7 @@
 <script setup>
 import { onMounted, watch, ref } from 'vue';
+import codes from './codes.json';
+console.log(codes)
 
 const props = defineProps(['visible', 'code', 'exit', 'loaded'])
 const product = ref(null)
@@ -95,6 +97,18 @@ function aiSummary() {
     });
 }
 
+function getDangerColor(text) {
+    text = text.toLowerCase();
+    if (text.includes("high")) {
+        return "bg-red-500 ";
+    } else if (text.includes("moderate")) {
+        return "bg-yellow-500 ";
+    } else if (text.includes("low")) {
+        return "bg-green-500 ";
+    }
+    return "bg-gray-500 ";
+}
+
 </script>
 
 <template>
@@ -176,12 +190,35 @@ function aiSummary() {
                         </div>
                         <img :src="'/nova-group-' + product['nutriments']['nova-group'] + '.svg'" class="h-12 ml-auto" />
                     </div>
+                    <div>
+                        <ul class="list-disc" v-for="(a, i) in product.additives_original_tags">
+                            <li :class="`additive-num`-i">
+                                <span :class="`${getDangerColor(codes['E' + a.split('en:')[1].substr(1)].risk)} text-white rounded-lg px-2`">{{ 'E' + a.split("en:")[1].substr(1) }}</span>
+                                {{ codes['E' + a.split("en:")[1].substr(1)].name }}
+                            </li>
+                        </ul>
+
+                        <div class="w-full">
+                            <p>Effects</p>
+                            <span v-for="danger in ['high', 'moderate', 'low', 'none known']" :class="getDangerColor(danger) + 'px-1 rounded-lg m-2'">
+                                {{ danger.toUpperCase() }}
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </Transition>
 </template>
 
+<style>
+</style>
+
+<!-- <style>
+    .additive-num-{{i}}::before {
+        content: {{ "E" + a.split("en:")[1].substr(1);
+    }
+</style> -->
 <style scoped>
 .v-enter-active,
 .v-leave-active {

@@ -99,3 +99,11 @@ html {
     scrollbar-width: none;
     /* Firefox */
 }
+
+li::before {
+  /* content: "::before"; */
+  background: lightgray;
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
+}
