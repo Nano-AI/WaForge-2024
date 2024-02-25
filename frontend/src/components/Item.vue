@@ -114,7 +114,7 @@ function aiSummary() {
                         <div class="text-xl roboto-black">{{ toTitleCase(product.product_name_en) }}</div>
                     </div>
                     <span
-                        class="flex flex-row mt-4 gap-0.5 gap-y-2 overflow-auto max-w-[calc(100vw-48px)] rounded">
+                        class="flex flex-row mt-4 gap-0.5 gap-y-2 overflow-auto max-w-[calc(100vw-48px)] rounded pb-2">
                         <span
                             class="bg-[#F47E5F]/20 text-[#F47E5F] font-medium me-2 px-2.5 py-0.5 rounded text-nowrap shadow-inner"
                             v-for="item in product.categories_tags">{{
@@ -160,7 +160,7 @@ function aiSummary() {
                             <div class="text-xs mt-1" v-if="product.nutriscore_tags[0].toUpperCase() === 'A'">Good
                                 nutritional quality</div>
                         </div>
-                        <img :src="'/public/nutriscore-' + product.nutriscore_tags[0].toLowerCase() + '.svg'"
+                        <img :src="'/nutriscore-' + product.nutriscore_tags[0].toLowerCase() + '.svg'"
                             class="h-12 ml-auto" />
                     </div>
                     <div class="flex flex-row mt-6 items-center">
@@ -171,7 +171,7 @@ function aiSummary() {
                             <div class="text-xs mt-1" v-if="product['nutriments']['nova-group'] === 2">Processed food</div>
                             <div class="text-xs mt-1" v-if="product['nutriments']['nova-group'] === 1">Low processed food</div>
                         </div>
-                        <img :src="'/public/nova-group-' + product['nutriments']['nova-group'] + '.svg'" class="h-12 ml-auto" />
+                        <img :src="'/nova-group-' + product['nutriments']['nova-group'] + '.svg'" class="h-12 ml-auto" />
                     </div>
                 </div>
             </div>
