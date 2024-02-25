@@ -142,7 +142,7 @@ function aiSummary() {
                         <div class="p-2 animate-pulse" v-if="summaryLoading">
                             <div class="h-2 bg-gray-300 rounded-full w-full"></div>
                         </div>
-                        <button @click="aiSummary"
+                        <button @click="aiSummary" v-if="summary.length === 0"
                             class="rounded p-1.5 bg-emerald-500 text-white w-full rounded-t-none font-semibold">✨ Generate
                             Summary</button>
                     </div>
@@ -162,6 +162,9 @@ function aiSummary() {
                         </div>
                         <img :src="'/nutriscore-' + product.nutriscore_tags[0].toLowerCase() + '.svg'"
                             class="h-12 ml-auto" />
+                    </div>
+                    <div class="flex flex-col mt-2 border-b-2">
+                        <div class="flex flex-row border-t-2 items-center py-1 px-2" v-for="[key, level] in Object.entries(product.nutrient_levels)">{{(level === "high" ? "🙁 &nbsp;" : level === "moderate" ? "😐 &nbsp;" : level === "low" ? "😊 &nbsp;" : "") + toTitleCase(key.replaceAll("-", " ")) }} <div class="text-xs ml-auto">{{ product.nutriments[key+"_100g"] + "%" }}</div></div>
                     </div>
                     <div class="flex flex-row mt-6 items-center">
                         <div class="flex flex-col">
