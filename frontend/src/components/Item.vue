@@ -14,7 +14,7 @@ const loadCode = async () => {
                 "ngrok-skip-browser-warning": "hi"
             }
         });
-        if(resp.status !== 200) {
+        if (resp.status !== 200) {
             return
         }
         product.value = await resp.json();
@@ -41,6 +41,12 @@ defineExpose({
 watch(props.code, loadCode)
 
 onMounted(loadCode)
+
+function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function (txt) {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}
 </script>
 
 <template>
@@ -55,11 +61,10 @@ onMounted(loadCode)
                     </svg>
                 </button>
                 <div class="flex flex-col mt-3 flex-1 px-1.5 overflow-y-auto">
-                    <div class="text-xl roboto-black">{{ product.product_name_en.toLowerCase()
-                        .split(' ')
-                        .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
-                        .join(' ') }}</div>
-                    {{ JSON.stringify() }}
+                    <div class="text-xl roboto-black">{{ toTitleCase(product.product_name_en) }}</div>
+                    <div class="block">
+                        <div class="rounded-full shadow-inner px-2 py-1">hi</div>
+                    </div>
                 </div>
             </div>
         </div>
