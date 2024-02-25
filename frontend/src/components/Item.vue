@@ -114,7 +114,7 @@ function aiSummary() {
                         <div class="text-xl roboto-black">{{ toTitleCase(product.product_name_en) }}</div>
                     </div>
                     <span
-                        class="flex flex-row mt-4 gap-0.5 gap-y-2 overflow-auto max-w-[calc(100vw-48px)] keep-scrolling rounded">
+                        class="flex flex-row mt-4 gap-0.5 gap-y-2 overflow-auto max-w-[calc(100vw-48px)] rounded">
                         <span
                             class="bg-[#F47E5F]/20 text-[#F47E5F] font-medium me-2 px-2.5 py-0.5 rounded text-nowrap shadow-inner"
                             v-for="item in product.categories_tags">{{
