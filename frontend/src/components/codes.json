@@ -1,0 +1,2382 @@
+{
+  "E330": {
+    "name": "Citric acid",
+    "risk": ""
+  },
+  "E322": {
+    "name": "Lecithins",
+    "risk": ""
+  },
+  "E322i": {
+    "name": "Lecithin",
+    "risk": ""
+  },
+  "E500": {
+    "name": "Sodium carbonates",
+    "risk": ""
+  },
+  "E415": {
+    "name": "Xanthan gum",
+    "risk": ""
+  },
+  "E471": {
+    "name": "Mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E500ii": {
+    "name": "Sodium hydrogen carbonate",
+    "risk": ""
+  },
+  "E412": {
+    "name": "Guar gum",
+    "risk": ""
+  },
+  "E202": {
+    "name": "Potassium sorbate",
+    "risk": "High risk of over exposure"
+  },
+  "E450": {
+    "name": "Diphosphates",
+    "risk": "High risk of over exposure"
+  },
+  "E407": {
+    "name": "Carrageenan",
+    "risk": "High risk of over exposure"
+  },
+  "E440": {
+    "name": "Pectins",
+    "risk": ""
+  },
+  "E250": {
+    "name": "Sodium nitrite",
+    "risk": "High risk of over exposure"
+  },
+  "E300": {
+    "name": "Ascorbic acid",
+    "risk": ""
+  },
+  "E14XX": {
+    "name": "Modified Starch",
+    "risk": ""
+  },
+  "E331": {
+    "name": "Sodium citrates",
+    "risk": ""
+  },
+  "E270": {
+    "name": "Lactic acid",
+    "risk": ""
+  },
+  "E129": {
+    "name": "Allura red",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E150c": {
+    "name": "Ammonia caramel",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E102": {
+    "name": "Tartrazine",
+    "risk": ""
+  },
+  "E422": {
+    "name": "Glycerol",
+    "risk": ""
+  },
+  "E133": {
+    "name": "Brilliant blue FCF",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E211": {
+    "name": "Sodium benzoate",
+    "risk": "High risk of over exposure"
+  },
+  "E341": {
+    "name": "Calcium phosphates",
+    "risk": "High risk of over exposure"
+  },
+  "E428": {
+    "name": "Gelatine",
+    "risk": ""
+  },
+  "E410": {
+    "name": "Locust bean gum",
+    "risk": ""
+  },
+  "E414": {
+    "name": "Acacia gum",
+    "risk": ""
+  },
+  "E621": {
+    "name": "Monosodium glutamate",
+    "risk": "High risk of over exposure"
+  },
+  "E450i": {
+    "name": "Disodium diphosphate",
+    "risk": ""
+  },
+  "E160a": {
+    "name": "Carotene",
+    "risk": ""
+  },
+  "E110": {
+    "name": "Sunset yellow FCF",
+    "risk": ""
+  },
+  "E955": {
+    "name": "Sucralose",
+    "risk": ""
+  },
+  "E160b": {
+    "name": "Annatto",
+    "risk": ""
+  },
+  "E296": {
+    "name": "Malic acid",
+    "risk": ""
+  },
+  "E466": {
+    "name": "Sodium carboxy methyl cellulose",
+    "risk": ""
+  },
+  "E503": {
+    "name": "Ammonium carbonates",
+    "risk": ""
+  },
+  "E160c": {
+    "name": "Paprika extract",
+    "risk": ""
+  },
+  "E420": {
+    "name": "Sorbitol",
+    "risk": ""
+  },
+  "E341i": {
+    "name": "Monocalcium phosphate",
+    "risk": ""
+  },
+  "E950": {
+    "name": "Acesulfame k",
+    "risk": ""
+  },
+  "E301": {
+    "name": "Sodium ascorbate",
+    "risk": ""
+  },
+  "E262": {
+    "name": "Sodium acetates",
+    "risk": ""
+  },
+  "E316": {
+    "name": "Sodium erythorbate",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E903": {
+    "name": "Carnauba wax",
+    "risk": ""
+  },
+  "E282": {
+    "name": "Calcium propionate",
+    "risk": ""
+  },
+  "E171": {
+    "name": "Titanium dioxide",
+    "risk": ""
+  },
+  "E200": {
+    "name": "Sorbic acid",
+    "risk": "High risk of over exposure"
+  },
+  "E452": {
+    "name": "Polyphosphates",
+    "risk": "High risk of over exposure"
+  },
+  "E160ai": {
+    "name": "Beta-carotene",
+    "risk": ""
+  },
+  "E100": {
+    "name": "Curcumin",
+    "risk": ""
+  },
+  "E460": {
+    "name": "Cellulose",
+    "risk": ""
+  },
+  "E631": {
+    "name": "Disodium inosinate",
+    "risk": ""
+  },
+  "E481": {
+    "name": "Sodium stearoyl-2-lactylate",
+    "risk": "High risk of over exposure"
+  },
+  "E306": {
+    "name": "Tocopherol-rich extract",
+    "risk": ""
+  },
+  "E503ii": {
+    "name": "Ammonium hydrogen carbonate",
+    "risk": ""
+  },
+  "E627": {
+    "name": "Disodium guanylate",
+    "risk": ""
+  },
+  "E472e": {
+    "name": "Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E1400": {
+    "name": "Dextrin",
+    "risk": ""
+  },
+  "E451": {
+    "name": "Triphosphates",
+    "risk": "High risk of over exposure"
+  },
+  "E340": {
+    "name": "Potassium phosphates",
+    "risk": "High risk of over exposure"
+  },
+  "E120": {
+    "name": "Cochineal",
+    "risk": ""
+  },
+  "E392": {
+    "name": "Extracts of rosemary",
+    "risk": ""
+  },
+  "E951": {
+    "name": "Aspartame",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E385": {
+    "name": "Calcium disodium ethylenediaminetetraacetate",
+    "risk": ""
+  },
+  "E401": {
+    "name": "Sodium alginate",
+    "risk": ""
+  },
+  "E260": {
+    "name": "Acetic acid",
+    "risk": ""
+  },
+  "E223": {
+    "name": "Sodium metabisulphite",
+    "risk": "High risk of over exposure"
+  },
+  "E321": {
+    "name": "Butylated hydroxytoluene",
+    "risk": ""
+  },
+  "E435": {
+    "name": "Polyoxyethylene sorbitan monostearate",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E541": {
+    "name": "Sodium aluminium phosphate",
+    "risk": ""
+  },
+  "E338": {
+    "name": "Phosphoric acid",
+    "risk": "High risk of over exposure"
+  },
+  "E476": {
+    "name": "Polyglycerol polyricinoleate",
+    "risk": ""
+  },
+  "E127": {
+    "name": "Erythrosine",
+    "risk": ""
+  },
+  "E339ii": {
+    "name": "Disodium phosphate",
+    "risk": ""
+  },
+  "E262ii": {
+    "name": "Sodium diacetate",
+    "risk": ""
+  },
+  "E433": {
+    "name": "Polyoxyethylene sorbitan monooleate",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E150a": {
+    "name": "Plain caramel",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E290": {
+    "name": "Carbon dioxide",
+    "risk": ""
+  },
+  "E235": {
+    "name": "Natamycin",
+    "risk": ""
+  },
+  "E252": {
+    "name": "Potassium nitrate",
+    "risk": "High risk of over exposure"
+  },
+  "E220": {
+    "name": "Sulphur dioxide",
+    "risk": "High risk of over exposure"
+  },
+  "E965": {
+    "name": "Maltitol",
+    "risk": ""
+  },
+  "E960": {
+    "name": "Steviol glycosides",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E406": {
+    "name": "Agar",
+    "risk": ""
+  },
+  "E326": {
+    "name": "Potassium lactate",
+    "risk": ""
+  },
+  "E132": {
+    "name": "Indigotine",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E340ii": {
+    "name": "Dipotassium phosphate",
+    "risk": ""
+  },
+  "E150d": {
+    "name": "Sulphite ammonia caramel",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E325": {
+    "name": "Sodium lactate",
+    "risk": ""
+  },
+  "E320": {
+    "name": "Butylated hydroxyanisole (bha)",
+    "risk": ""
+  },
+  "E418": {
+    "name": "Gellan gum",
+    "risk": ""
+  },
+  "E163": {
+    "name": "Anthocyanins",
+    "risk": ""
+  },
+  "E297": {
+    "name": "Fumaric acid",
+    "risk": ""
+  },
+  "E461": {
+    "name": "Methyl cellulose",
+    "risk": ""
+  },
+  "E334": {
+    "name": "L(+)-tartaric acid",
+    "risk": ""
+  },
+  "E160": {
+    "name": "Carotenoids",
+    "risk": ""
+  },
+  "E339": {
+    "name": "Sodium phosphates",
+    "risk": "High risk of over exposure"
+  },
+  "E319": {
+    "name": "Tertiary-butylhydroquinone (tbhq)",
+    "risk": ""
+  },
+  "E1520": {
+    "name": "Propylene Glycol",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E901": {
+    "name": "White and yellow beeswax",
+    "risk": ""
+  },
+  "E170": {
+    "name": "Calcium carbonates",
+    "risk": ""
+  },
+  "E460ii": {
+    "name": "Powdered cellulose",
+    "risk": ""
+  },
+  "E224": {
+    "name": "Potassium metabisulphite",
+    "risk": "High risk of over exposure"
+  },
+  "E445": {
+    "name": "Glycerol esters of wood rosin",
+    "risk": ""
+  },
+  "E327": {
+    "name": "Calcium lactate",
+    "risk": ""
+  },
+  "E101": {
+    "name": "Riboflavin",
+    "risk": ""
+  },
+  "E281": {
+    "name": "Sodium propionate",
+    "risk": ""
+  },
+  "E500i": {
+    "name": "Sodium carbonate",
+    "risk": ""
+  },
+  "E150": {
+    "name": "Caramel",
+    "risk": ""
+  },
+  "E212": {
+    "name": "Potassium benzoate",
+    "risk": "High risk of over exposure"
+  },
+  "E452i": {
+    "name": "Sodium polyphosphate",
+    "risk": ""
+  },
+  "E501": {
+    "name": "Potassium carbonates",
+    "risk": ""
+  },
+  "E904": {
+    "name": "Shellac",
+    "risk": ""
+  },
+  "E570": {
+    "name": "Fatty acids",
+    "risk": ""
+  },
+  "E336": {
+    "name": "Potassium tartrates",
+    "risk": ""
+  },
+  "E551": {
+    "name": "Silicon dioxide",
+    "risk": ""
+  },
+  "E491": {
+    "name": "Sorbitan monostearate",
+    "risk": "High risk of over exposure"
+  },
+  "E968": {
+    "name": "Erythritol",
+    "risk": ""
+  },
+  "E262i": {
+    "name": "Sodium acetate",
+    "risk": ""
+  },
+  "E516": {
+    "name": "Calcium sulphate",
+    "risk": ""
+  },
+  "E162": {
+    "name": "Beetroot red",
+    "risk": ""
+  },
+  "E452vi": {
+    "name": "Sodium tripolyphosphate",
+    "risk": ""
+  },
+  "E170i": {
+    "name": "Calcium carbonate",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E1200": {
+    "name": "Polydextrose",
+    "risk": ""
+  },
+  "E222": {
+    "name": "Sodium bisulphite",
+    "risk": "High risk of over exposure"
+  },
+  "E475": {
+    "name": "Polyglycerol esters of fatty acids",
+    "risk": ""
+  },
+  "E509": {
+    "name": "Calcium chloride",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E161b": {
+    "name": "Lutein",
+    "risk": ""
+  },
+  "E331iii": {
+    "name": "Trisodium citrate",
+    "risk": ""
+  },
+  "E575": {
+    "name": "Glucono-delta-lactone",
+    "risk": ""
+  },
+  "E1510": {
+    "name": "Ethanol",
+    "risk": ""
+  },
+  "E304": {
+    "name": "Fatty acid esters of ascorbic acid",
+    "risk": ""
+  },
+  "E141": {
+    "name": "Copper complexes of chlorophylls and chlorophyllins",
+    "risk": ""
+  },
+  "E464": {
+    "name": "Hydroxypropyl methyl cellulose",
+    "risk": ""
+  },
+  "E967": {
+    "name": "Xylitol",
+    "risk": ""
+  },
+  "E1103": {
+    "name": "Invertase",
+    "risk": ""
+  },
+  "E341ii": {
+    "name": "Dicalcium phosphate",
+    "risk": ""
+  },
+  "E336i": {
+    "name": "Monopotassium tartrate",
+    "risk": ""
+  },
+  "E635": {
+    "name": "Disodium 5'-ribonucleotide",
+    "risk": ""
+  },
+  "E517": {
+    "name": "Ammonium sulphate",
+    "risk": ""
+  },
+  "E101i": {
+    "name": "Riboflavin",
+    "risk": ""
+  },
+  "E965ii": {
+    "name": "Maltitol syrup",
+    "risk": ""
+  },
+  "E153": {
+    "name": "Vegetable carbon",
+    "risk": ""
+  },
+  "E251": {
+    "name": "Sodium nitrate",
+    "risk": "High risk of over exposure"
+  },
+  "E524": {
+    "name": "Sodium hydroxide",
+    "risk": ""
+  },
+  "E905": {
+    "name": "Synthetic wax",
+    "risk": ""
+  },
+  "E572": {
+    "name": "Magnesium stearate",
+    "risk": ""
+  },
+  "E1100": {
+    "name": "Alpha-Amylase",
+    "risk": ""
+  },
+  "E460i": {
+    "name": "Microcrystalline cellulose",
+    "risk": ""
+  },
+  "E450iii": {
+    "name": "Tetrasodium diphosphate",
+    "risk": ""
+  },
+  "E920": {
+    "name": "L-cysteine",
+    "risk": ""
+  },
+  "E1105": {
+    "name": "Lysozyme",
+    "risk": ""
+  },
+  "E472b": {
+    "name": "Lactic acid esters of mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E954": {
+    "name": "Saccharin and its salts",
+    "risk": ""
+  },
+  "E1442": {
+    "name": "Hydroxypropyl distarch phosphate",
+    "risk": ""
+  },
+  "E905a": {
+    "name": "Mineral oil",
+    "risk": ""
+  },
+  "E502": {
+    "name": "Carbonates",
+    "risk": ""
+  },
+  "E1422": {
+    "name": "Acetylated distarch adipate",
+    "risk": ""
+  },
+  "E307": {
+    "name": "Alpha-tocopherol",
+    "risk": ""
+  },
+  "E501i": {
+    "name": "Potassium carbonate",
+    "risk": ""
+  },
+  "E521": {
+    "name": "Aluminium sodium sulphate",
+    "risk": ""
+  },
+  "E420ii": {
+    "name": "Sorbitol syrup",
+    "risk": ""
+  },
+  "E953": {
+    "name": "Isomalt",
+    "risk": ""
+  },
+  "E552": {
+    "name": "Calcium silicate",
+    "risk": ""
+  },
+  "E417": {
+    "name": "Tara gum",
+    "risk": ""
+  },
+  "E333": {
+    "name": "Calcium citrates",
+    "risk": ""
+  },
+  "E503i": {
+    "name": "Ammonium carbonate",
+    "risk": ""
+  },
+  "E579": {
+    "name": "Iron gluconate",
+    "risk": ""
+  },
+  "E304i": {
+    "name": "Ascorbyl palmitate",
+    "risk": ""
+  },
+  "E339iii": {
+    "name": "Trisodium phosphate",
+    "risk": ""
+  },
+  "E492": {
+    "name": "Sorbitan tristearate",
+    "risk": "High risk of over exposure"
+  },
+  "E421": {
+    "name": "Mannitol",
+    "risk": ""
+  },
+  "E407a": {
+    "name": "Processed eucheuma seaweed",
+    "risk": "High risk of over exposure"
+  },
+  "E442": {
+    "name": "Ammonium phosphatides",
+    "risk": ""
+  },
+  "E900": {
+    "name": "Dimethylpolysiloxane and Methylphenylpolysiloxane",
+    "risk": ""
+  },
+  "E160e": {
+    "name": "Beta-apo-8′-carotenal (c30)",
+    "risk": ""
+  },
+  "E405": {
+    "name": "Propane-1‚2-diol alginate",
+    "risk": ""
+  },
+  "E172": {
+    "name": "Iron oxides and iron hydroxides",
+    "risk": ""
+  },
+  "E927": {
+    "name": "Azodicarbonamide and Carbamide",
+    "risk": ""
+  },
+  "E473": {
+    "name": "Sucrose esters of fatty acids",
+    "risk": "High risk of over exposure"
+  },
+  "E952": {
+    "name": "Cyclamic acid and its Na and Ca salts",
+    "risk": ""
+  },
+  "E451i": {
+    "name": "Pentasodium triphosphate",
+    "risk": ""
+  },
+  "E221": {
+    "name": "Sodium sulphite",
+    "risk": "High risk of over exposure"
+  },
+  "E310": {
+    "name": "Propyl gallate",
+    "risk": ""
+  },
+  "E900a": {
+    "name": "Dimethyl polysiloxane",
+    "risk": ""
+  },
+  "E332": {
+    "name": "Potassium citrates",
+    "risk": ""
+  },
+  "E263": {
+    "name": "Calcium acetate",
+    "risk": ""
+  },
+  "E131": {
+    "name": "Patent blue v",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E340i": {
+    "name": "Monopotassium phosphate",
+    "risk": ""
+  },
+  "E930": {
+    "name": "Calcium peroxide",
+    "risk": ""
+  },
+  "E261": {
+    "name": "Potassium acetate",
+    "risk": ""
+  },
+  "E477": {
+    "name": "Propane-1‚2-diol esters of fatty acids",
+    "risk": ""
+  },
+  "E554": {
+    "name": "Sodium aluminium silicate",
+    "risk": ""
+  },
+  "E927a": {
+    "name": "Azodicarbonamide",
+    "risk": ""
+  },
+  "E355": {
+    "name": "Adipic acid",
+    "risk": ""
+  },
+  "E413": {
+    "name": "Tragacanth",
+    "risk": ""
+  },
+  "E472c": {
+    "name": "Citric acid esters of mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E553": {
+    "name": "Magnesium silicates",
+    "risk": ""
+  },
+  "E470b": {
+    "name": "Magnesium salts of fatty acids",
+    "risk": ""
+  },
+  "E210": {
+    "name": "Benzoic acid",
+    "risk": "High risk of over exposure"
+  },
+  "E535": {
+    "name": "Sodium ferrocyanide",
+    "risk": ""
+  },
+  "E510": {
+    "name": "Ammonium chloride",
+    "risk": ""
+  },
+  "E350": {
+    "name": "Sodium malates",
+    "risk": ""
+  },
+  "E508": {
+    "name": "Potassium chloride",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E501ii": {
+    "name": "Potassium hydrogen carbonate",
+    "risk": ""
+  },
+  "E341iii": {
+    "name": "Tricalcium phosphate",
+    "risk": ""
+  },
+  "E553b": {
+    "name": "Talc",
+    "risk": ""
+  },
+  "E520": {
+    "name": "Aluminium sulphate",
+    "risk": ""
+  },
+  "E140": {
+    "name": "Chlorophylls and Chlorophyllins",
+    "risk": ""
+  },
+  "E122": {
+    "name": "Azorubine",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E1104": {
+    "name": "Lipase",
+    "risk": ""
+  },
+  "E1101": {
+    "name": "Protease",
+    "risk": ""
+  },
+  "E315": {
+    "name": "Erythorbic acid",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E124": {
+    "name": "Ponceau 4r",
+    "risk": ""
+  },
+  "E363": {
+    "name": "Succinic acid",
+    "risk": ""
+  },
+  "E444": {
+    "name": "Sucrose acetate isobutyrate",
+    "risk": ""
+  },
+  "E164": {
+    "name": "Saffron",
+    "risk": ""
+  },
+  "E443": {
+    "name": "Brominated vegetable oil",
+    "risk": ""
+  },
+  "E343": {
+    "name": "Magnesium phosphates",
+    "risk": "High risk of over exposure"
+  },
+  "E472a": {
+    "name": "Acetic acid esters of mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E234": {
+    "name": "Nisin",
+    "risk": ""
+  },
+  "E150b": {
+    "name": "Caustic sulphite caramel",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E141ii": {
+    "name": "Copper complexes of chlorophyllins",
+    "risk": ""
+  },
+  "E941": {
+    "name": "Nitrogen",
+    "risk": ""
+  },
+  "E425": {
+    "name": "Konjac",
+    "risk": ""
+  },
+  "E640": {
+    "name": "Glycine and its sodium salt",
+    "risk": ""
+  },
+  "E280": {
+    "name": "Propionic acid",
+    "risk": ""
+  },
+  "E340iii": {
+    "name": "Tripotassium phosphate",
+    "risk": ""
+  },
+  "E924a": {
+    "name": "Potassium bromate",
+    "risk": ""
+  },
+  "#VALUE!": {
+    "name": "#VALUE!",
+    "risk": ""
+  },
+  "E160aii": {
+    "name": "Plant carotenes",
+    "risk": ""
+  },
+  "E343i": {
+    "name": "Monomagnesium phosphate",
+    "risk": ""
+  },
+  "E504": {
+    "name": "Magnesium carbonates",
+    "risk": ""
+  },
+  "E307b": {
+    "name": "Concentrated tocopherol",
+    "risk": ""
+  },
+  "E160d": {
+    "name": "Lycopene",
+    "risk": ""
+  },
+  "E141i": {
+    "name": "Copper complexes of chlorophylls",
+    "risk": ""
+  },
+  "E331i": {
+    "name": "Monosodium citrate",
+    "risk": ""
+  },
+  "E332ii": {
+    "name": "Tripotassium citrate",
+    "risk": ""
+  },
+  "E916": {
+    "name": "Calcium iodate",
+    "risk": ""
+  },
+  "E640i": {
+    "name": "Glycine",
+    "risk": ""
+  },
+  "E1519": {
+    "name": "Benzyl alcohol",
+    "risk": ""
+  },
+  "E1450": {
+    "name": "Starch sodium octenyl succinate",
+    "risk": ""
+  },
+  "E175": {
+    "name": "Gold",
+    "risk": ""
+  },
+  "E1505": {
+    "name": "Triethyl citrate",
+    "risk": ""
+  },
+  "E641": {
+    "name": "Leucine",
+    "risk": ""
+  },
+  "E482": {
+    "name": "Calcium stearoyl-2-lactylate",
+    "risk": "High risk of over exposure"
+  },
+  "E1412": {
+    "name": "Distarch phosphate",
+    "risk": ""
+  },
+  "E942": {
+    "name": "Nitrous oxide",
+    "risk": ""
+  },
+  "E1414": {
+    "name": "Acetylated distarch phosphate",
+    "risk": ""
+  },
+  "E140i": {
+    "name": "Chlorophylls",
+    "risk": ""
+  },
+  "E585": {
+    "name": "Ferrous lactate",
+    "risk": ""
+  },
+  "E525": {
+    "name": "Potassium hydroxide",
+    "risk": ""
+  },
+  "E472": {
+    "name": "Acid esters of mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E416": {
+    "name": "Karaya-gum",
+    "risk": ""
+  },
+  "E404": {
+    "name": "Calcium alginate",
+    "risk": ""
+  },
+  "E961": {
+    "name": "Neotame",
+    "risk": ""
+  },
+  "E960a": {
+    "name": "Steviol glycosides from Stevia",
+    "risk": ""
+  },
+  "E160bii": {
+    "name": "Annatto norbixin",
+    "risk": ""
+  },
+  "E1420": {
+    "name": "Acetylated starch",
+    "risk": ""
+  },
+  "E104": {
+    "name": "Quinoline yellow",
+    "risk": ""
+  },
+  "E350ii": {
+    "name": "Sodium hydrogen malate",
+    "risk": ""
+  },
+  "E339i": {
+    "name": "Monosodium phosphate",
+    "risk": ""
+  },
+  "E487": {
+    "name": "Sodium dodecyl sulfate",
+    "risk": ""
+  },
+  "E218": {
+    "name": "Methyl p-hydroxybenzoate",
+    "risk": ""
+  },
+  "E1518": {
+    "name": "Glyceryl triacetate",
+    "risk": ""
+  },
+  "E140ii": {
+    "name": "Chlorophyllins",
+    "risk": ""
+  },
+  "E216": {
+    "name": "Propyl para-hydroxybenzoate",
+    "risk": ""
+  },
+  "E905b": {
+    "name": "Petroleum jelly",
+    "risk": ""
+  },
+  "E928": {
+    "name": "Benzole peroxide",
+    "risk": ""
+  },
+  "E440a": {
+    "name": "Pectin",
+    "risk": ""
+  },
+  "E333iii": {
+    "name": "Tricalcium citrate",
+    "risk": ""
+  },
+  "E440ii": {
+    "name": "Amidated pectin",
+    "risk": ""
+  },
+  "E1521": {
+    "name": "Polyethylene glycol",
+    "risk": ""
+  },
+  "E425i": {
+    "name": "Konjac gum",
+    "risk": ""
+  },
+  "E470a": {
+    "name": "Sodium/potassium and calcium salts of fatty acids",
+    "risk": ""
+  },
+  "E463": {
+    "name": "Hydroxypropyl cellulose",
+    "risk": ""
+  },
+  "E242": {
+    "name": "Dimethyl dicarbonate",
+    "risk": ""
+  },
+  "E143": {
+    "name": "Fast Green FCF",
+    "risk": ""
+  },
+  "E142": {
+    "name": "Green s",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E576": {
+    "name": "Sodium gluconate",
+    "risk": ""
+  },
+  "E1201": {
+    "name": "Polyvinylpyrrolidone",
+    "risk": ""
+  },
+  "E620": {
+    "name": "Glutamic acid",
+    "risk": ""
+  },
+  "E536": {
+    "name": "Potassium ferrocyanide",
+    "risk": ""
+  },
+  "E1404": {
+    "name": "Oxidised starch",
+    "risk": ""
+  },
+  "E400": {
+    "name": "Alginic acid",
+    "risk": ""
+  },
+  "E511": {
+    "name": "Magnesium chloride",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E1503": {
+    "name": "Castor oil",
+    "risk": ""
+  },
+  "E342": {
+    "name": "Ammonium phosphate",
+    "risk": ""
+  },
+  "E420i": {
+    "name": "D-sorbitol",
+    "risk": ""
+  },
+  "E927b": {
+    "name": "Carbamide",
+    "risk": ""
+  },
+  "E151": {
+    "name": "Brilliant black bn",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E432": {
+    "name": "Polyoxyethylene sorbitan monolaurate",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E329": {
+    "name": "Magnesium lactate",
+    "risk": ""
+  },
+  "E228": {
+    "name": "Potassium bisulphite",
+    "risk": "High risk of over exposure"
+  },
+  "E999": {
+    "name": "Quillaia extract",
+    "risk": ""
+  },
+  "E917": {
+    "name": "Potassium iodate",
+    "risk": ""
+  },
+  "E468": {
+    "name": "Cross-linked sodium carboxymethylcellulose",
+    "risk": ""
+  },
+  "E966": {
+    "name": "Lactitol",
+    "risk": ""
+  },
+  "E331ii": {
+    "name": "Disodium citrate",
+    "risk": ""
+  },
+  "E962": {
+    "name": "Salt of aspartame-acesulfame",
+    "risk": ""
+  },
+  "E526": {
+    "name": "Calcium hydroxide",
+    "risk": ""
+  },
+  "E902": {
+    "name": "Candelilla wax",
+    "risk": ""
+  },
+  "E172ii": {
+    "name": "Red iron oxide",
+    "risk": ""
+  },
+  "E450ii": {
+    "name": "Trisodium diphosphate",
+    "risk": ""
+  },
+  "E123": {
+    "name": "Amaranth",
+    "risk": "No or very low risk of over exposure"
+  },
+  "E504i": {
+    "name": "Magnesium carbonate",
+    "risk": ""
+  },
+  "E944": {
+    "name": "Propane",
+    "risk": ""
+  },
+  "E514": {
+    "name": "Sodium sulphates",
+    "risk": ""
+  },
+  "E343ii": {
+    "name": "Dimagnesium phosphate",
+    "risk": ""
+  },
+  "E155": {
+    "name": "Brown ht",
+    "risk": "High risk of over exposure"
+  },
+  "E450v": {
+    "name": "Tetrapotassium diphosphate",
+    "risk": ""
+  },
+  "E1102": {
+    "name": "Glucose oxidase",
+    "risk": ""
+  },
+  "E249": {
+    "name": "Potassium nitrite",
+    "risk": ""
+  },
+  "E957": {
+    "name": "Thaumatin",
+    "risk": ""
+  },
+  "E1202": {
+    "name": "Polyvinylpolypyrrolidone",
+    "risk": ""
+  },
+  "E350i": {
+    "name": "Sodium malate",
+    "risk": ""
+  },
+  "E914": {
+    "name": "Oxidised polyethylene wax",
+    "risk": ""
+  },
+  "E324": {
+    "name": "Ethoxyquin",
+    "risk": ""
+  },
+  "E943b": {
+    "name": "Isobutane",
+    "risk": ""
+  },
+  "E1440": {
+    "name": "Hydroxypropyl starch",
+    "risk": ""
+  },
+  "E436": {
+    "name": "Polyoxyethylene sorbitan tristearate",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E203": {
+    "name": "Calcium sorbate",
+    "risk": ""
+  },
+  "E943a": {
+    "name": "Butane",
+    "risk": ""
+  },
+  "E959": {
+    "name": "Neohesperidine dihydrochalcone",
+    "risk": ""
+  },
+  "E173": {
+    "name": "Aluminium",
+    "risk": ""
+  },
+  "E440i": {
+    "name": "Non-amidated pectines",
+    "risk": ""
+  },
+  "E530": {
+    "name": "Magnesium oxide",
+    "risk": ""
+  },
+  "E636": {
+    "name": "Maltol",
+    "risk": ""
+  },
+  "E515": {
+    "name": "Potassium sulphates",
+    "risk": ""
+  },
+  "E451ii": {
+    "name": "Pentapotassium triphosphate",
+    "risk": ""
+  },
+  "E470": {
+    "name": "Sodium/potassium/calcium and magnesium salts of fatty acids",
+    "risk": ""
+  },
+  "E905c": {
+    "name": "Petroleum wax",
+    "risk": ""
+  },
+  "E507": {
+    "name": "Hydrochloric acid",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E555": {
+    "name": "Potassium aluminium silicate",
+    "risk": ""
+  },
+  "E1210": {
+    "name": "Carbomer",
+    "risk": ""
+  },
+  "E1203": {
+    "name": "Polyvinyl alcohol",
+    "risk": ""
+  },
+  "E490": {
+    "name": "Propylene glycol",
+    "risk": ""
+  },
+  "E913": {
+    "name": "Lanolin",
+    "risk": ""
+  },
+  "E307c": {
+    "name": "DL-Alpha-tocopherol",
+    "risk": ""
+  },
+  "E637": {
+    "name": "Ethyl maltol",
+    "risk": ""
+  },
+  "E505": {
+    "name": "Ferrous carbonate",
+    "risk": ""
+  },
+  "E452ii": {
+    "name": "Potassium polyphosphate",
+    "risk": ""
+  },
+  "E302": {
+    "name": "Calcium ascorbate",
+    "risk": ""
+  },
+  "E472d": {
+    "name": "Tartaric acid esters of mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E285": {
+    "name": "Sodium tetraborate (borax)",
+    "risk": ""
+  },
+  "E243": {
+    "name": "Ethyl lauroyl arginate",
+    "risk": ""
+  },
+  "E160bi": {
+    "name": "Annatto bixin",
+    "risk": ""
+  },
+  "E905ci": {
+    "name": "Microcrystalline wax",
+    "risk": ""
+  },
+  "E559": {
+    "name": "Aluminium silicate",
+    "risk": ""
+  },
+  "E161h": {
+    "name": "Zeaxanthin",
+    "risk": ""
+  },
+  "E336ii": {
+    "name": "Dipotassium tartrate",
+    "risk": ""
+  },
+  "E514ii": {
+    "name": "Sodium hydrogen sulphate",
+    "risk": ""
+  },
+  "E201": {
+    "name": "Sodium sorbate",
+    "risk": ""
+  },
+  "E529": {
+    "name": "Calcium oxide",
+    "risk": ""
+  },
+  "E1401": {
+    "name": "Acid-treated modified starch",
+    "risk": ""
+  },
+  "E174": {
+    "name": "Silver",
+    "risk": ""
+  },
+  "E335": {
+    "name": "Sodium tartrates",
+    "risk": ""
+  },
+  "E386": {
+    "name": "E386 food additive",
+    "risk": ""
+  },
+  "E214": {
+    "name": "Ethyl p-hydroxybenzoate",
+    "risk": ""
+  },
+  "E160aiii": {
+    "name": "Beta-carotene from blakeslea trispora",
+    "risk": ""
+  },
+  "E963": {
+    "name": "Tagatose",
+    "risk": ""
+  },
+  "E925": {
+    "name": "Chlorine",
+    "risk": ""
+  },
+  "E365": {
+    "name": "Sodium fumarate",
+    "risk": ""
+  },
+  "E964": {
+    "name": "Polyglycitol syrup",
+    "risk": ""
+  },
+  "E1001": {
+    "name": "Choline salt",
+    "risk": ""
+  },
+  "E375": {
+    "name": "Nicotinic acid",
+    "risk": ""
+  },
+  "E403": {
+    "name": "Ammonium alginate",
+    "risk": ""
+  },
+  "E265": {
+    "name": "Dehydroacetic acid",
+    "risk": ""
+  },
+  "E470ai": {
+    "name": "Sodium salts of fatty acids",
+    "risk": ""
+  },
+  "E523": {
+    "name": "Aluminium ammonium sulphate",
+    "risk": ""
+  },
+  "E180": {
+    "name": "Litholrubine bk",
+    "risk": ""
+  },
+  "E160aiv": {
+    "name": "Algal carotenes",
+    "risk": ""
+  },
+  "E948": {
+    "name": "Oxygen",
+    "risk": ""
+  },
+  "E101ii": {
+    "name": "Riboflavin-5′-phosphate",
+    "risk": ""
+  },
+  "E949": {
+    "name": "Hydrogen",
+    "risk": ""
+  },
+  "E161g": {
+    "name": "Canthaxanthin",
+    "risk": ""
+  },
+  "E462": {
+    "name": "Ethyl cellulose",
+    "risk": ""
+  },
+  "E1504": {
+    "name": "Ethyl acetate",
+    "risk": ""
+  },
+  "E450vii": {
+    "name": "Calcium dihydrogen diphosphate",
+    "risk": ""
+  },
+  "E233": {
+    "name": "Thiabendazole",
+    "risk": ""
+  },
+  "E958": {
+    "name": "Glycyrrhizin",
+    "risk": ""
+  },
+  "E337": {
+    "name": "Potassium sodium tartrate",
+    "risk": ""
+  },
+  "E266": {
+    "name": "Sodium dehydroacetate",
+    "risk": ""
+  },
+  "E402": {
+    "name": "Potassium alginate",
+    "risk": ""
+  },
+  "E650": {
+    "name": "Zinc acetate",
+    "risk": ""
+  },
+  "E577": {
+    "name": "Potassium gluconate",
+    "risk": ""
+  },
+  "E514i": {
+    "name": "Sodium sulphate",
+    "risk": ""
+  },
+  "E639": {
+    "name": "E639 food additive",
+    "risk": ""
+  },
+  "E539": {
+    "name": "Sodium thiosulfate",
+    "risk": ""
+  },
+  "E494": {
+    "name": "Sorbitan monooleate",
+    "risk": "High risk of over exposure"
+  },
+  "E152": {
+    "name": "Black 7984",
+    "risk": ""
+  },
+  "E541i": {
+    "name": "Acid sodium aluminium phosphate",
+    "risk": ""
+  },
+  "E225": {
+    "name": "Calcium Disulphite",
+    "risk": ""
+  },
+  "E236": {
+    "name": "Formic acid",
+    "risk": ""
+  },
+  "E1000": {
+    "name": "Cholic acid",
+    "risk": ""
+  },
+  "E965i": {
+    "name": "D-Maltitol",
+    "risk": ""
+  },
+  "E630": {
+    "name": "Inosinic acid",
+    "risk": ""
+  },
+  "E1204": {
+    "name": "Pullulan",
+    "risk": ""
+  },
+  "E425ii": {
+    "name": "Konjac glucomannan",
+    "risk": ""
+  },
+  "E1421": {
+    "name": "Acetylated starch",
+    "risk": ""
+  },
+  "E624": {
+    "name": "Monoammonium glutamate",
+    "risk": ""
+  },
+  "E311": {
+    "name": "Octyl gallate",
+    "risk": ""
+  },
+  "E165": {
+    "name": "Gardenia Blue",
+    "risk": ""
+  },
+  "E1405": {
+    "name": "Enzyme treated starch",
+    "risk": ""
+  },
+  "E550": {
+    "name": "Sodium silicate",
+    "risk": ""
+  },
+  "E130": {
+    "name": "Indanthrene blue RS",
+    "risk": ""
+  },
+  "E303": {
+    "name": "Potassium ascorbate",
+    "risk": ""
+  },
+  "E905cii": {
+    "name": "Paraffin wax",
+    "risk": ""
+  },
+  "E219": {
+    "name": "Sodium methyl p-hydroxybenzoate",
+    "risk": ""
+  },
+  "E181": {
+    "name": "Tannin",
+    "risk": ""
+  },
+  "E469": {
+    "name": "Enzymatically hydrolysed carboxymethylcellulose",
+    "risk": ""
+  },
+  "E307a": {
+    "name": "D-Alpha-tocopherol",
+    "risk": ""
+  },
+  "E522": {
+    "name": "Aluminium potassium sulphate",
+    "risk": ""
+  },
+  "E504ii": {
+    "name": "Magnesium hydroxide carbonate",
+    "risk": ""
+  },
+  "E364": {
+    "name": "E364 food additive",
+    "risk": ""
+  },
+  "E457": {
+    "name": "Alpha-Cyclodextrine",
+    "risk": ""
+  },
+  "E317": {
+    "name": "Erythorbin acid",
+    "risk": ""
+  },
+  "E622": {
+    "name": "Monopotassium glutamate",
+    "risk": ""
+  },
+  "E558": {
+    "name": "Bentonite",
+    "risk": ""
+  },
+  "E172iii": {
+    "name": "Yellow iron oxide",
+    "risk": ""
+  },
+  "E353": {
+    "name": "Metatartaric acid",
+    "risk": ""
+  },
+  "E578": {
+    "name": "Calcium gluconate",
+    "risk": ""
+  },
+  "E352": {
+    "name": "Calcium malates",
+    "risk": ""
+  },
+  "E230": {
+    "name": "Biphenyl",
+    "risk": ""
+  },
+  "E921": {
+    "name": "L-cysteine hydrochloride monohydrate",
+    "risk": ""
+  },
+  "E441": {
+    "name": "Superglycerinated hydrogenated rapeseed oil",
+    "risk": ""
+  },
+  "E528": {
+    "name": "Magnesium hydroxide",
+    "risk": ""
+  },
+  "E172i": {
+    "name": "Black iron oxide",
+    "risk": ""
+  },
+  "E381": {
+    "name": "Ferric ammonium citrate",
+    "risk": ""
+  },
+  "E411": {
+    "name": "E411 food additive",
+    "risk": ""
+  },
+  "E474": {
+    "name": "Sucroglycerides",
+    "risk": ""
+  },
+  "E409": {
+    "name": "Arabinogalactan",
+    "risk": ""
+  },
+  "E226": {
+    "name": "Calcium sulphite",
+    "risk": "High risk of over exposure"
+  },
+  "E908": {
+    "name": "Rice bran wax",
+    "risk": ""
+  },
+  "E380": {
+    "name": "Triammonium citrate",
+    "risk": ""
+  },
+  "E161j": {
+    "name": "Astaxanthin",
+    "risk": ""
+  },
+  "E626": {
+    "name": "Guanylic acid",
+    "risk": ""
+  },
+  "E500iii": {
+    "name": "Sodium sesquicarbonate",
+    "risk": ""
+  },
+  "E125": {
+    "name": "Scarlet GN",
+    "risk": ""
+  },
+  "E1410": {
+    "name": "Monostarch phosphate",
+    "risk": ""
+  },
+  "E573": {
+    "name": "Aluminium stearate",
+    "risk": ""
+  },
+  "E161": {
+    "name": "Xanthophylls",
+    "risk": ""
+  },
+  "E370": {
+    "name": "1‚4-Heptonolactone",
+    "risk": ""
+  },
+  "E215": {
+    "name": "Sodium ethyl p-hydroxybenzoate",
+    "risk": ""
+  },
+  "E527": {
+    "name": "Ammonium hydroxide",
+    "risk": ""
+  },
+  "E1451": {
+    "name": "Acetylated oxidised starch",
+    "risk": ""
+  },
+  "E459": {
+    "name": "Beta-cyclodextrine",
+    "risk": "High risk of over exposure"
+  },
+  "E332i": {
+    "name": "Monopotassium citrate",
+    "risk": ""
+  },
+  "E479b": {
+    "name": "Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E232": {
+    "name": "Sodium orthophenyl phenol",
+    "risk": ""
+  },
+  "E419": {
+    "name": "Gum ghatti",
+    "risk": ""
+  },
+  "E111": {
+    "name": "Orange GGN",
+    "risk": ""
+  },
+  "E426": {
+    "name": "Soybean hemicellulose",
+    "risk": ""
+  },
+  "E465": {
+    "name": "Ethyl methyl cellulose",
+    "risk": ""
+  },
+  "E450vi": {
+    "name": "Dicalcium diphosphate",
+    "risk": ""
+  },
+  "E513": {
+    "name": "Sulphuric acid",
+    "risk": ""
+  },
+  "E105": {
+    "name": "E105 food additive",
+    "risk": ""
+  },
+  "E446": {
+    "name": "Succistearin",
+    "risk": ""
+  },
+  "E518": {
+    "name": "Magnesium sulphate",
+    "risk": ""
+  },
+  "E15x": {
+    "name": "E15x food additive",
+    "risk": ""
+  },
+  "E154": {
+    "name": "Brown FK",
+    "risk": ""
+  },
+  "E217": {
+    "name": "Sodium propyl para-hydroxybenzoate",
+    "risk": ""
+  },
+  "E308": {
+    "name": "Gamme-tocopherol",
+    "risk": ""
+  },
+  "E391": {
+    "name": "Phytic acid",
+    "risk": ""
+  },
+  "E424": {
+    "name": "Curdlan",
+    "risk": ""
+  },
+  "E121": {
+    "name": "Citrus Red 2",
+    "risk": ""
+  },
+  "E470aiii": {
+    "name": "Calcium salts of fatty acids",
+    "risk": ""
+  },
+  "E580": {
+    "name": "Magnesium Gluconate",
+    "risk": ""
+  },
+  "E309": {
+    "name": "Delta-tocopherol",
+    "risk": ""
+  },
+  "E515i": {
+    "name": "Potassium sulphate",
+    "risk": ""
+  },
+  "E1411": {
+    "name": "Distarch glycerol",
+    "risk": ""
+  },
+  "E344": {
+    "name": "Lecithin citrate",
+    "risk": ""
+  },
+  "E431": {
+    "name": "Polyoxyethylene (40) stearate",
+    "risk": ""
+  },
+  "E472g": {
+    "name": "Succinylated monoglycerides",
+    "risk": ""
+  },
+  "E106": {
+    "name": "Flavin mononucleotide",
+    "risk": ""
+  },
+  "E239": {
+    "name": "Hexamethylene tetramine",
+    "risk": ""
+  },
+  "E632": {
+    "name": "Dipotassium inosinate",
+    "risk": ""
+  },
+  "E170ii": {
+    "name": "Calcium hydrogen carbonate",
+    "risk": ""
+  },
+  "E283": {
+    "name": "Potassium propionate",
+    "risk": ""
+  },
+  "E367": {
+    "name": "Calcium fumarate",
+    "risk": ""
+  },
+  "E101a": {
+    "name": "E101a food additive",
+    "risk": ""
+  },
+  "E284": {
+    "name": "Boric acid",
+    "risk": ""
+  },
+  "E166": {
+    "name": "Sandalwood",
+    "risk": ""
+  },
+  "E540": {
+    "name": "Dicalcium diphosphate",
+    "risk": ""
+  },
+  "E352i": {
+    "name": "Calcium malate",
+    "risk": ""
+  },
+  "E542": {
+    "name": "Bone phosphate",
+    "risk": ""
+  },
+  "E493": {
+    "name": "Sorbitan monolaurate",
+    "risk": "High risk of over exposure"
+  },
+  "E429": {
+    "name": "Peptone",
+    "risk": ""
+  },
+  "E484": {
+    "name": "Stearyl citrate",
+    "risk": ""
+  },
+  "E452iv": {
+    "name": "Calcium polyphosphate",
+    "risk": ""
+  },
+  "E434": {
+    "name": "Polyoxyethylene sorbitan monopalmitate",
+    "risk": "Moderate risk of over exposure"
+  },
+  "E512": {
+    "name": "Stannous chloride",
+    "risk": ""
+  },
+  "E333ii": {
+    "name": "Dicalcium citrate",
+    "risk": ""
+  },
+  "E318": {
+    "name": "Calcium erythorbin",
+    "risk": ""
+  },
+  "E557": {
+    "name": "Hemimorphite",
+    "risk": ""
+  },
+  "E574": {
+    "name": "Gluconic acid",
+    "risk": ""
+  },
+  "E231": {
+    "name": "Orthophenyl phenol",
+    "risk": ""
+  },
+  "E910": {
+    "name": "Wax ester",
+    "risk": ""
+  },
+  "E160f": {
+    "name": "Ethyl ester of beta-apo-8'-carotenic acid (C 30)",
+    "risk": ""
+  },
+  "E1413": {
+    "name": "Phosphated distarch phosphate",
+    "risk": ""
+  },
+  "E1403": {
+    "name": "Bleached starch",
+    "risk": ""
+  },
+  "E128": {
+    "name": "Red 2G",
+    "risk": ""
+  },
+  "E103": {
+    "name": "Alkannin",
+    "risk": ""
+  },
+  "E351": {
+    "name": "Potassium malate",
+    "risk": ""
+  },
+  "E408": {
+    "name": "Bakers yeast glycan",
+    "risk": ""
+  },
+  "E390": {
+    "name": "E390 food additive",
+    "risk": ""
+  },
+  "E383": {
+    "name": "Calcium glycerophosphate",
+    "risk": ""
+  },
+  "E923": {
+    "name": "Ammonium persulfate",
+    "risk": ""
+  },
+  "E586": {
+    "name": "4-hexylresorcinol",
+    "risk": ""
+  },
+  "E304ii": {
+    "name": "Ascorbyl stearate",
+    "risk": ""
+  },
+  "E450iv": {
+    "name": "Dipotassium dihydrogenpyrophosphate",
+    "risk": ""
+  },
+  "E312": {
+    "name": "Dodecyl gallate",
+    "risk": ""
+  },
+  "E314": {
+    "name": "Guaiacum",
+    "risk": ""
+  },
+  "E560": {
+    "name": "Potassium silicate",
+    "risk": ""
+  },
+  "E430": {
+    "name": "Polyoxyethylene (8) stearate",
+    "risk": ""
+  },
+  "E427": {
+    "name": "Cassia gum",
+    "risk": ""
+  },
+  "E328": {
+    "name": "Ammonium lactate",
+    "risk": ""
+  },
+  "E126": {
+    "name": "Ponceau 6R",
+    "risk": ""
+  },
+  "E240": {
+    "name": "Formaldehyde",
+    "risk": ""
+  },
+  "E906": {
+    "name": "Benzoin resin",
+    "risk": ""
+  },
+  "E246": {
+    "name": "Glycolipids",
+    "risk": ""
+  },
+  "E496": {
+    "name": "Sorbitan trioleate",
+    "risk": ""
+  },
+  "E571": {
+    "name": "E571 food additive",
+    "risk": ""
+  },
+  "E399": {
+    "name": "Calcium lactobionate",
+    "risk": ""
+  },
+  "E107": {
+    "name": "Yellow 2G",
+    "risk": ""
+  },
+  "E354": {
+    "name": "Calcium tartrate",
+    "risk": ""
+  },
+  "E345": {
+    "name": "Magnesium citrate",
+    "risk": ""
+  },
+  "E919": {
+    "name": "Nitrosyl chloride",
+    "risk": ""
+  },
+  "E907": {
+    "name": "Hydrogenated poly-1-decene",
+    "risk": ""
+  },
+  "E366": {
+    "name": "Potassium fumarate",
+    "risk": ""
+  },
+  "E478": {
+    "name": "Lactylated fatty acid esters of glycerol and propane-1",
+    "risk": ""
+  },
+  "E322ii": {
+    "name": "Partially hydrolyzed lecithin",
+    "risk": ""
+  },
+  "E488": {
+    "name": "Ethoxylated Mono- and Di-Glycerides",
+    "risk": ""
+  },
+  "E628": {
+    "name": "Dipotassium guanylate",
+    "risk": ""
+  },
+  "E625": {
+    "name": "Magnesium diglutamate",
+    "risk": ""
+  },
+  "E182": {
+    "name": "Orcein",
+    "risk": ""
+  },
+  "E313": {
+    "name": "Ethyl gallate",
+    "risk": ""
+  },
+  "E241": {
+    "name": "Gum Guaicum",
+    "risk": ""
+  },
+  "E553a": {
+    "name": "Synthetic magnesium silicates",
+    "risk": ""
+  },
+  "E545": {
+    "name": "Ammonium polyphosphate",
+    "risk": ""
+  },
+  "E640ii": {
+    "name": "Sodiumglycinate",
+    "risk": ""
+  },
+  "E543": {
+    "name": "E543 food additive",
+    "risk": ""
+  },
+  "E642": {
+    "name": "E642 food additive",
+    "risk": ""
+  },
+  "E323": {
+    "name": "E323 food additive",
+    "risk": ""
+  },
+  "E335i": {
+    "name": "Monosodium tartrate",
+    "risk": ""
+  },
+  "E213": {
+    "name": "Calcium benzoate",
+    "risk": "High risk of over exposure"
+  },
+  "E909": {
+    "name": "Spermaceti",
+    "risk": ""
+  },
+  "E359": {
+    "name": "Ammonium adipate",
+    "risk": ""
+  },
+  "E922": {
+    "name": "Potassium persulfate",
+    "risk": ""
+  },
+  "E388": {
+    "name": "Thiodipropionic acid",
+    "risk": ""
+  },
+  "E929": {
+    "name": "Acetone peroxide",
+    "risk": ""
+  },
+  "E389": {
+    "name": "E389 food additive",
+    "risk": ""
+  },
+  "E938": {
+    "name": "Argon",
+    "risk": ""
+  },
+  "E458": {
+    "name": "Gamma-Cyclodextrine",
+    "risk": ""
+  },
+  "E486": {
+    "name": "Calcium stearoyl fumarate",
+    "risk": ""
+  },
+  "E467": {
+    "name": "Ethulose",
+    "risk": ""
+  },
+  "E623": {
+    "name": "Calcium diglutamate",
+    "risk": ""
+  },
+  "E638": {
+    "name": "E638 food additive",
+    "risk": ""
+  },
+  "E238": {
+    "name": "Calcium formiate",
+    "risk": ""
+  },
+  "E633": {
+    "name": "Calcium inosinate",
+    "risk": ""
+  },
+  "E939": {
+    "name": "Helium",
+    "risk": ""
+  },
+  "E519": {
+    "name": "Copper sulphate",
+    "risk": ""
+  },
+  "E912": {
+    "name": "Montanic acid esters",
+    "risk": ""
+  },
+  "E1517": {
+    "name": "Glyceryl diacetate",
+    "risk": ""
+  },
+  "E911": {
+    "name": "Fatty acid methyl ester",
+    "risk": ""
+  },
+  "E1441": {
+    "name": "Hydroxy propyl distarch glycerine",
+    "risk": ""
+  },
+  "E946": {
+    "name": "Octafluorocyclobutane",
+    "risk": ""
+  },
+  "E1430": {
+    "name": "Distarch glycerine",
+    "risk": ""
+  },
+  "E450viii": {
+    "name": "E450(viii) food additive",
+    "risk": ""
+  },
+  "E349": {
+    "name": "Ammonium malate",
+    "risk": ""
+  },
+  "E495": {
+    "name": "Sorbitan monopalmitate",
+    "risk": "High risk of over exposure"
+  },
+  "E489": {
+    "name": "Methyl glucoside-coconut oil ester",
+    "risk": ""
+  },
+  "E209": {
+    "name": "Heptylparaben",
+    "risk": ""
+  },
+  "E553ai": {
+    "name": "Synthetic magnesium silicate",
+    "risk": ""
+  },
+  "E553aii": {
+    "name": "Magnesium trisilicate",
+    "risk": ""
+  },
+  "E629": {
+    "name": "Calcium guanylate",
+    "risk": ""
+  },
+  "E335ii": {
+    "name": "Disodium tartrate",
+    "risk": ""
+  },
+  "E483": {
+    "name": "Stearyl tartrate",
+    "risk": ""
+  },
+  "E537": {
+    "name": "Ferrous hexacyanomanganate",
+    "risk": ""
+  },
+  "E960c": {
+    "name": "Enzymatically produced steviol glycosides",
+    "risk": ""
+  },
+  "E1206": {
+    "name": "Neutral methacrylate copolymer",
+    "risk": ""
+  },
+  "E1205": {
+    "name": "Basic methacrylate copolymer",
+    "risk": ""
+  },
+  "E227": {
+    "name": "Calcium bisulphite",
+    "risk": "High risk of over exposure"
+  },
+  "E538": {
+    "name": "Calcium ferrocyanide",
+    "risk": ""
+  },
+  "E710": {
+    "name": "Spiramycin",
+    "risk": ""
+  },
+  "E440b": {
+    "name": "Pectin amide",
+    "risk": ""
+  },
+  "E472f": {
+    "name": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids",
+    "risk": ""
+  },
+  "E357": {
+    "name": "Potassium adipate",
+    "risk": ""
+  },
+  "E515ii": {
+    "name": "Potassium hydrogen sulphate",
+    "risk": ""
+  },
+  "E163c": {
+    "name": "Malvidin",
+    "risk": ""
+  },
+  "E926": {
+    "name": "Chlorine dioxide",
+    "risk": ""
+  },
+  "E384": {
+    "name": "Isopropyl citrates",
+    "risk": ""
+  },
+  "E161c": {
+    "name": "Cryptoaxanthin",
+    "risk": ""
+  },
+  "E546": {
+    "name": "Magnesium pyrophosphate",
+    "risk": ""
+  },
+  "E452iii": {
+    "name": "Sodium calcium polyphosphate",
+    "risk": ""
+  }
+}

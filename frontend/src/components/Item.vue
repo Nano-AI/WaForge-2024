@@ -1,5 +1,7 @@
 <script setup>
 import { onMounted, watch, ref } from 'vue';
+import codes from './codes.json';
+console.log(codes)
 
 const props = defineProps(['visible', 'code', 'exit', 'loaded'])
 const product = ref(null)
@@ -172,6 +174,14 @@ function aiSummary() {
                             <div class="text-xs mt-1" v-if="product['nutriments']['nova-group'] === 1">Low processed food</div>
                         </div>
                         <img :src="'/public/nova-group-' + product['nutriments']['nova-group'] + '.svg'" class="h-12 ml-auto" />
+                    </div>
+                    <div>
+                        <ul v-for="a in product.additives_original_tags">
+                            <li>{{ 'E' + a.split("en:")[1].substr(1) }} - {{ codes['E' + a.split("en:")[1].substr(1)].name }}
+                            <br>
+                            {{  codes['E' + a.split("en:")[1].substr(1)].risk }}
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
