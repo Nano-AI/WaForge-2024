@@ -100,7 +100,7 @@ function aiSummary() {
 <template>
     <Transition :duration="300">
         <div class="bg-black/60 w-screen h-screen absolute top-0 left-0 z-[999] flex" v-if="visible">
-            <div class="flex-1 bg-white inner shadow-inner p-4 flex flex-col">
+            <div class="flex-1 bg-white inner shadow-inner py-4 pl-4 pr-2 flex-col">
                 <button @click="exit">
                     <svg xmlns="http://www.w3.org/2000/svg" class="opacity-70 w-6 h-6" viewBox="0 0 256 256">
                         <path
@@ -108,7 +108,7 @@ function aiSummary() {
                         </path>
                     </svg>
                 </button>
-                <div class="flex flex-col mt-3 flex-1 px-1.5 overflow-y-auto">
+                <div class="mt-3 flex-1 overflow-y-auto max-h-[calc(100vh-60px)] pl-1.5 pr-3.5 pb-12">
                     <div class="flex items-center gap-4">
                         <img :src="getImage()" v-if="getImage() !== null" class="rounded-lg w-28" />
                         <div class="text-xl roboto-black">{{ toTitleCase(product.product_name_en) }}</div>
@@ -135,14 +135,14 @@ function aiSummary() {
                         </div>
                     </span>
 
-                    <div class="bg-gray-500/10 mt-3 rounded relative text-sm overflow-hidden shadow-md">
+                    <div class="mt-3 rounded relative text-sm overflow-hidden shadow-md bg-gray-200/50">
                         <div class="p-2 text-slate-800 max-h-24 overflow-y-auto"
                             v-if="!summaryLoading && summary.length > 0" v-html="summary">
                         </div>
                         <div class="p-2 animate-pulse" v-if="summaryLoading">
                             <div class="h-2 bg-gray-300 rounded-full w-full"></div>
                         </div>
-                        <button @click="aiSummary" v-if="summary.length === 0"
+                        <button @click="aiSummary"
                             class="rounded p-1.5 bg-emerald-500 text-white w-full rounded-t-none font-semibold">✨ Generate
                             Summary</button>
                     </div>

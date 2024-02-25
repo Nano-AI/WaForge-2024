@@ -81,6 +81,11 @@ body {
     font-weight: 400;
     font-style: normal;
     overscroll-behavior-y: contain;
+    overflow: hidden;
+}
+
+html {
+    overflow: hidden;
 }
 
 .keep-scrolling::-webkit-scrollbar {
