@@ -120,6 +120,21 @@ function aiSummary() {
                             v-for="item in product.categories_tags">{{
                                 toTitleCase(item.split(":")[1].replaceAll("-", " ")) }}</span>
                     </span>
+                    <span
+                        class="flex flex-row mt-4 gap-0.5 gap-y-2 overflow-auto max-w-[calc(100vw-48px)] keep-scrolling rounded"
+                        v-if="product.allergens_hierarchy && product.allergens_hierarchy.length > 0">
+                        <div class="w-full bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="alert">
+                            <p class="font-bold">
+                                Potential Allergens
+                            </p>
+                            {{
+                                product.allergens_hierarchy.map(item =>
+                                    toTitleCase(item.split(":")[1].replaceAll("-", " "))
+                                ).join(", ")
+                            }}
+                        </div>
+                    </span>
+
                     <div class="bg-gray-500/10 mt-3 rounded relative text-sm overflow-hidden shadow-md">
                         <div class="p-2 text-slate-800 max-h-24 overflow-y-auto"
                             v-if="!summaryLoading && summary.length > 0" v-html="summary">
@@ -184,4 +199,5 @@ function aiSummary() {
 .v-leave-to .inner {
     transform: translateY(90%);
     opacity: 0.5;
-}</style>
+}
+</style>
