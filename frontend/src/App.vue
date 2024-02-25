@@ -34,9 +34,9 @@ onMounted(async () => {
       width: { ideal: 2530 },
       height: { ideal: vh * 1.83 },
       // ACTIVATE PWA
-      // facingMode: {
-      //   exact: 'environment'
-      // }
+      facingMode: {
+        exact: 'environment'
+      }
     },
     audio: false
   })
