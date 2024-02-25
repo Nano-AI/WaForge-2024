@@ -1,4 +1,5 @@
 const request = require('request');
+const cors = require('cors');
 const express = require('express');
 const app = express();
 
@@ -9,6 +10,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 const DB_URL = process.env.DB_URL;
 
+
 const client = new MongoClient(DB_URL);
 
 const database = client.db('off');
@@ -16,10 +18,15 @@ const products = database.collection('products');
 
 const filtered_products = ['nova_groups_tags', 'product_name_en', 'product_name', 'ingredients_text', 'ingredients', 'ingredients_text_with_allergens', 'ingredients_text_en', 'ingredients_text_with_allergens_en', 'ingredients_text_en_imported', 'nutrient_levels_tags', 'food_groups', 'brand_owner', 'ingredients_analysis', 'data_quality_warnings_tags', 'nutriments', 'ingredients_tags', 'additives_original_tags', 'additives_original_tags', 'serving_quantity', '_keywords', 'serving_size', 'nutrient_levels', 'ingredients_without_ciqual_codes', 'nutrition_score_warning_fruits_vegetables_legumes_estimate_from_ingredients', 'allergens_tags ', 'nutriscore_data', 'nutrition_score_warning_fruits_vegetables_nuts_estimate_from_ingredients', 'pnns_groups_1', 'additives_old_tags', 'food_groups_tags', 'ecoscore_data', 'ingredients_text_with_allergens', 'allergens', 'last_modified_by', 'nutriscore', 'ingredients_analysis_tags', 'ingredients_text_en', 'serving_size_imported', 'nutriscore_version', 'categories_tags', 'ingredients_text_with_allergens_en', 'nova_groups_markers', 'nutriscore_tags', 'allergens_hierarchy', 'allergens_from_ingredients', 'ingredients_original_tags', 'brand_owner_imported', 'data_quality_tags', 'ingredients_hierarchy'];
 
+app.use(cors());
+
 async function get(id) {
   try {
     const query = {"_id": id};
     const result = await products.findOne(query);
+    if (result == null && id.length <= 14) {
+      return await get("0" + id);
+    }
     return result;
   } finally {
     // await client.close();
@@ -34,7 +41,11 @@ async function getDetails(id) {
   let data = await get(id);
   let output = {};
   for (let field in filtered_products) {
-    output[filtered_products[field]] = data[filtered_products[field]];
+    try {
+      output[filtered_products[field]] = data[filtered_products[field]];
+    } catch {
+      continue;
+    }
   }
   return output;
 }
