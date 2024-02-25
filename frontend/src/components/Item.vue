@@ -62,9 +62,9 @@ function toTitleCase(str) {
                 </button>
                 <div class="flex flex-col mt-3 flex-1 px-1.5 overflow-y-auto">
                     <div class="text-xl roboto-black">{{ toTitleCase(product.product_name_en) }}</div>
-                    <div class="block">
-                        <div class="rounded-full shadow-inner px-2 py-1">hi</div>
-                    </div>
+                    <span class="flex flex-row mt-6 gap-0.5 gap-y-2 overflow-auto max-w-[calc(100vw-48px)] keep-scrolling">
+                        <span class="bg-[#F47E5F]/20 text-[#F47E5F] text-lg font-medium me-2 px-2.5 py-0.5 rounded text-nowrap" v-for="item in product.categories_tags">{{ toTitleCase(item.split(":")[1].replaceAll("-", " ")) }}</span>
+                    </span>
                 </div>
             </div>
         </div>
