@@ -16,7 +16,7 @@ const left = ref(50);
 const scale = ref(0.9);
 
 watch(quality, (quality) => {
-  if (quality <= 50 && blurryLatest.value !== latest.value) {
+  if (quality <= 14 && blurryLatest.value !== latest.value) {
     status.value = "Blurry image. Try adjusting angle."
   } else {
     status.value = "Scan a food barcode"
@@ -41,15 +41,49 @@ onMounted(async () => {
     audio: false
   })
 
+  let dist = 0;
+
   camera.value.srcObject = stream;
   camera.value.play();
+
+  const [track] = stream.getVideoTracks();
+  const imageCapture = new ImageCapture(track);
+
+  const capabilities = track.getCapabilities();
+  const settings = track.getSettings();
+
+  if (!capabilities.focusDistance) {
+    return;
+  }
+
+  const input = document.querySelector('input[type="range"]');
+  input.min = capabilities.focusDistance.min;
+  input.max = capabilities.focusDistance.max;
+  input.step = capabilities.focusDistance.step;
+  input.value = settings.focusDistance;
+  input.oninput = async event => {
+    try {
+      dist = input.value
+    } catch (err) {
+      console.error("applyConstraints() failed: ", err);
+    }
+  };
+  input.parentElement.hidden = false;
+
+  setInterval(async () => {
+    await track.applyConstraints({
+      focusMode: "manual",
+      focusDistance: dist
+    });
+  }, 1000);
 
   const barcodeDetector = new BarcodeDetectorPolyfill({ formats: ['upc_e', 'upc_a', 'itf', 'ean_8', 'ean_13', 'code_93', 'code_39', 'code_128'] });
   const findLatest = async () => {
     const barcodes = await barcodeDetector.detect(camera.value)
     if (barcodes.length > 0) {
-      if (barcodes[0].quality > 50) {
+      if (barcodes[0].quality > 14) {
         latest.value = barcodes[0].rawValue;
+        scan()
       } else {
         blurryLatest.value = barcodes[0].rawValue;
       }
@@ -67,19 +101,31 @@ onUnmounted(() => {
 const itemVisible = ref(false)
 
 // REMOVE IN LIVE
-latest.value = "004000051315"
+latest.value = "040000513155"
+
+const item = ref(null)
 
 const scan = () => {
-  if(latest.value !== null) {
+  if (latest.value !== null) {
     loading.value = true;
-    setTimeout(() => {
-      loading.value = false;
-      itemVisible.value = true;
-    }, 1000)
+    item.value.onLoad(() => {
+      setTimeout(() => {
+        loading.value = false;
+        itemVisible.value = true;
+      }, 1000)
+    })
   }
 }
 
 const loading = ref(false);
+
+watch(loading, (loading) => {
+  if (loading) {
+    camera.value.pause()
+  } else {
+    camera.value.play()
+  }
+})
 
 const exit = () => {
   itemVisible.value = false;
@@ -88,14 +134,17 @@ const exit = () => {
 </script>
 
 <template>
-  <Item :visible="itemVisible" :code="latest" :exit="exit"></Item>
-  <Transition name="loader">
-    <Loader v-if="loading"></Loader>
-  </Transition>
-  <video autoplay class="w-screen h-screen absolute bg-black pointer-events-none" ref="camera"></video>
-  <div class="absolute top-[5%] h-[20vh] px-8 flex w-full">
-    logo will go here
+  <input type="range" class="absolute top-0 left-0 z-[99]">
+  <Item :visible="itemVisible" :code="() => latest" :exit="exit" ref="item"></Item>
+  <div class="w-screen h-screen absolute top-0 left-0 flex items-center justify-center">
+    <Transition name="loader">
+      <Loader v-if="loading"></Loader>
+    </Transition>
   </div>
+  <video autoplay class="w-screen h-screen absolute bg-black pointer-events-none" ref="camera"></video>
+  <!-- <div class="absolute top-[2%] h-[7vh] px-3 flex w-full">
+    <img src="/logo.svg" class="h-[7vh]"/>
+  </div> -->
   <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 666.98 215.76"
     class="h-[10vh] absolute"
     :style="'top: ' + top + '%; left: ' + left + '%; transform: translate(-50%, -50%) scale(' + scale + ');'">
@@ -145,11 +194,11 @@ const exit = () => {
 
 .loader-enter-active,
 .loader-leave-active {
-  transition: transform 0.3s ease;
+  transition: scale 0.25s ease;
 }
 
 .loader-enter-from,
 .loader-leave-to {
-  transform: scale(0);
+  scale: 0;
 }
 </style>

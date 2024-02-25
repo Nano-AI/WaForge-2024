@@ -1,8 +1,46 @@
 <script setup>
-const props = defineProps(['visible', 'code', 'exit'])
+import { onMounted, watch, ref } from 'vue';
 
-// const visible = ref(props.visible)
-// const code = ref(props.code)
+const props = defineProps(['visible', 'code', 'exit', 'loaded'])
+const product = ref(null)
+const loading = ref(false)
+
+const loadCode = async () => {
+    const code = props.code();
+    if (code !== null) {
+        loading.value = true;
+        const resp = await fetch("https://be92-4-16-175-130.ngrok-free.app/api/product/" + code, {
+            headers: {
+                "ngrok-skip-browser-warning": "hi"
+            }
+        });
+        if(resp.status !== 200) {
+            return
+        }
+        product.value = await resp.json();
+        if (load !== null) {
+            load()
+        }
+        loading.value = false;
+    }
+}
+
+let load = null
+const onLoad = (f) => {
+    if (loading.value) {
+        load = f
+    } else {
+        f()
+    }
+}
+
+defineExpose({
+    onLoad
+})
+
+watch(props.code, loadCode)
+
+onMounted(loadCode)
 </script>
 
 <template>
@@ -17,8 +55,11 @@ const props = defineProps(['visible', 'code', 'exit'])
                     </svg>
                 </button>
                 <div class="flex flex-col mt-3 flex-1 px-1.5 overflow-y-auto">
-                    <div class="text-xl roboto-black">title here</div>
-                    
+                    <div class="text-xl roboto-black">{{ product.product_name_en.toLowerCase()
+                        .split(' ')
+                        .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+                        .join(' ') }}</div>
+                    {{ JSON.stringify() }}
                 </div>
             </div>
         </div>
