@@ -134,7 +134,7 @@ const exit = () => {
 </script>
 
 <template>
-  <input type="range" class="absolute top-0 left-0 z-[99]">
+  <input type="range" class="absolute top-0 left-0 z-[99] hidden">
   <Item :visible="itemVisible" :code="() => latest" :exit="exit" ref="item"></Item>
   <div class="w-screen h-screen absolute top-0 left-0 flex items-center justify-center">
     <Transition name="loader">

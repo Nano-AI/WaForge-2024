@@ -102,9 +102,9 @@ function getDangerColor(text) {
     if (text.includes("high")) {
         return "bg-red-500 ";
     } else if (text.includes("moderate")) {
-        return "bg-yellow-500 ";
+        return "bg-orange-400 ";
     } else if (text.includes("low")) {
-        return "bg-green-500 ";
+        return "bg-yellow-500 ";
     }
     return "bg-gray-500 ";
 }
@@ -160,7 +160,7 @@ function getDangerColor(text) {
                             class="rounded p-1.5 bg-emerald-500 text-white w-full rounded-t-none font-semibold">✨ Generate
                             Summary</button>
                     </div>
-                    <div class="flex flex-row mt-6 items-center">
+                    <div class="flex flex-row mt-6 items-center" v-if="!product.nutriscore_tags.includes('not-applicable')">
                         <div class="flex flex-col">
                             <div class="uppercase text-sm font-bold opacity-50">Nutri-score</div>
                             <div class="text-xs mt-1" v-if="product.nutriscore_tags[0].toUpperCase() === 'E'">Awful
@@ -177,10 +177,10 @@ function getDangerColor(text) {
                         <img :src="'/nutriscore-' + product.nutriscore_tags[0].toLowerCase() + '.svg'"
                             class="h-12 ml-auto" />
                     </div>
-                    <div class="flex flex-col mt-2 border-b-2">
+                    <div class="flex flex-col mt-2 border-b-2" v-if="!product.nutriscore_tags.includes('not-applicable')">
                         <div class="flex flex-row border-t-2 items-center py-1 px-2" v-for="[key, level] in Object.entries(product.nutrient_levels)">{{(level === "high" ? "🙁 &nbsp;" : level === "moderate" ? "😐 &nbsp;" : level === "low" ? "😊 &nbsp;" : "") + toTitleCase(key.replaceAll("-", " ")) }} <div class="text-xs ml-auto">{{ product.nutriments[key+"_100g"] + "%" }}</div></div>
                     </div>
-                    <div class="flex flex-row mt-6 items-center">
+                    <div class="flex flex-row mt-6 items-center" v-if="typeof(product['nutriments']['nova-group']) !== 'undefined'">
                         <div class="flex flex-col">
                             <div class="uppercase text-sm font-bold opacity-50">NOVA score</div>
                             <div class="text-xs mt-1" v-if="product['nutriments']['nova-group'] === 4">Ultra processed</div>
@@ -190,7 +190,7 @@ function getDangerColor(text) {
                         </div>
                         <img :src="'/nova-group-' + product['nutriments']['nova-group'] + '.svg'" class="h-12 ml-auto" />
                     </div>
-                    <div>
+                    <div v-if="typeof(product['nutriments']['nova-group']) !== 'undefined'">
                         <ul class="list-disc" v-for="(a, i) in product.additives_original_tags">
                             <li :class="`additive-num`-i">
                                 <span :class="`${getDangerColor(codes['E' + a.split('en:')[1].substr(1)].risk)} text-white rounded-lg px-2`">{{ 'E' + a.split("en:")[1].substr(1) }}</span>
@@ -198,12 +198,21 @@ function getDangerColor(text) {
                             </li>
                         </ul>
 
-                        <div class="w-full">
-                            <p>Effects</p>
-                            <span v-for="danger in ['high', 'moderate', 'low', 'none known']" :class="getDangerColor(danger) + 'px-1 rounded-lg m-2'">
-                                {{ danger.toUpperCase() }}
-                            </span>
-                        </div>
+                        <span class="mt-4 uppercase opacity-50 font-semibold text-xs border-b border-slate-500">Risk of overexposure</span>
+                        <span
+                        class="flex flex-row mt-1 gap-1 gap-y-2 overflow-auto max-w-[calc(100vw-48px)] rounded pb-2">
+                        <span
+                            class="text-white rounded-lg px-2 bg-red-500 text-nowrap"
+                            >High</span>
+                            <span
+                            class="text-white rounded-lg px-2 bg-orange-400 text-nowrap"
+                            >Moderate</span><span
+                            class="text-white rounded-lg px-2 bg-yellow-500 text-nowrap"
+                            >Low</span>
+                            <span
+                            class="text-white rounded-lg px-2 bg-gray-500 text-nowrap"
+                            >None known</span>
+                    </span>
                     </div>
                 </div>
             </div>
