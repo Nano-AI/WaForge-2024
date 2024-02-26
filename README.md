@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![CleanEats Video][product-screenshot]](https://youtu.be/FSq0EKt5-Bs)
 
 With so many issues surrounding public health in the modern era, it becomes difficult to distinguish between quality healthy food, and unsustainable food that has severe long-term impacts upon a person’s health. 
 
